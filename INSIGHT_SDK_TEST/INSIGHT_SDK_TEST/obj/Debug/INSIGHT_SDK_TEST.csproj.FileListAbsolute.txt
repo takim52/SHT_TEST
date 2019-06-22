@@ -1,0 +1,15 @@
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.csprojAssemblyReference.cache
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.Camconfigform.resources
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.Mainform.resources
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.Properties.Resources.resources
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.csproj.GenerateResource.cache
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.csproj.CoreCompileInputs.cache
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\bin\Debug\INSIGHT_SDK_TEST.exe.config
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\bin\Debug\INSIGHT_SDK_TEST.exe
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\bin\Debug\INSIGHT_SDK_TEST.pdb
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\bin\Debug\Cognex.InSight.Controls.Display.dll
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\bin\Debug\Cognex.InSight.dll
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.csproj.CopyComplete
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.exe
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.pdb
+C:\Users\takim\source\repos\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\Interop.CvsInSightDisplayOcx.dll
