@@ -1,0 +1,186 @@
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:19:19
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:19:22
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:19:22
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:19:24
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:19:25
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:19:26
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:19:27
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:19:28
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:23:05
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:23:06
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:23:06
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:23:08
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:23:09
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:23:09
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:23:10
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:23:11
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:23:11
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:23:11
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:23:12
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:23:13
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:23:14
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_nextView_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 260]2020-11-03 오전 10:23:15
+[System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: System.IO.Path.GetFullPath(String path)
+   위치: System.Drawing.IntSecurity.UnsafeGetFullPath(String fileName)
+   위치: System.Drawing.IntSecurity.DemandReadFileIO(String fileName)
+   위치: System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   위치: Blade_Monitoring.Show_IMG_Form.btn_perview_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 237]2020-11-03 오전 10:23:15
+[System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: Blade_Monitoring.Show_IMG_Form.btn_set_IMG_Click(Object sender, EventArgs e) 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\Show_IMG_Form.cs:줄 107]2020-11-03 오전 11:00:53

@@ -1,0 +1,16 @@
+디시리얼라이즈 실패!!!!  :: System.Collections.Generic.KeyNotFoundException: 지정한 키가 사전에 없습니다.
+   위치: System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   위치: Blade_Monitoring.MainForm.Deserialize() 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\MainForm.cs:줄 589 ::  2020-07-07 오전 11:18:33
+디시리얼라이즈 실패!!!!  :: System.Collections.Generic.KeyNotFoundException: 지정한 키가 사전에 없습니다.
+   위치: System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   위치: Blade_Monitoring.MainForm.Deserialize() 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\MainForm.cs:줄 589 ::  2020-07-07 오전 11:18:53
+디시리얼라이즈 실패!!!!  :: System.Collections.Generic.KeyNotFoundException: 지정한 키가 사전에 없습니다.
+   위치: System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   위치: Blade_Monitoring.MainForm.Deserialize() 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\MainForm.cs:줄 589 ::  2020-07-07 오전 11:23:23
+디시리얼라이즈 실패!!!!  :: System.Collections.Generic.KeyNotFoundException: 지정한 키가 사전에 없습니다.
+   위치: System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   위치: Blade_Monitoring.MainForm.Deserialize() 파일 C:\Users\xodns\source\repos\Blade_Monitoring\Blade_Monitoring\MainForm.cs:줄 589 ::  2020-07-07 오전 11:32:47
+이미지 저장 폴더 설정 :: 2020-07-07 오전 11:33:26
+데이터 저장 폴더 설정 :: 2020-07-07 오전 11:33:29
+시리얼라이즈 성공!  :: 2020-07-07 오전 11:33:30
+디시리얼라이즈 성공!  :: 2020-07-07 오전 11:33:36

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\CheckCount.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\CheckCount.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\CheckCount.csproj",
+        "projectName": "CheckCount",
+        "projectPath": "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\CheckCount.csproj",
+        "packagesPath": "C:\\Users\\xodns\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\xodns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Prism.Unity": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
