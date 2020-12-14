@@ -1,0 +1,13 @@
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\bin\Debug\SMS_TEST.exe.config
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\bin\Debug\SMS_TEST.exe
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\bin\Debug\SMS_TEST.pdb
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\bin\Debug\CoolSms.dll
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\obj\Debug\SMS_TEST.csprojAssemblyReference.cache
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\obj\Debug\SMS_TEST.Form1.resources
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\obj\Debug\SMS_TEST.Properties.Resources.resources
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\obj\Debug\SMS_TEST.csproj.GenerateResource.cache
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\obj\Debug\SMS_TEST.csproj.CopyComplete
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\obj\Debug\SMS_TEST.exe
+C:\Users\xodns\source\repos\SMS_TEST\SMS_TEST\obj\Debug\SMS_TEST.pdb
