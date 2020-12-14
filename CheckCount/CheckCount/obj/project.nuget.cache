@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L2YHSMYTDuYzUp9aU7hip2cZ8CZbRwwkY/KgQw6OfUC+8kRb3NurJgGXMrP/ROs9VLrrjFhMSIBRQTZBpxBStw==",
+  "dgSpecHash": "wIRL2TYTr2FugYI81P60GBC1/eEorxQptU0IJjCOTP9jincN5vCnkAZadZBmmaRJ4ThxOfPUpRPwMOCs/QWqlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\CheckCount.csproj",
+  "projectFilePath": "C:\\Users\\xodns\\Documents\\GitHub\\SHT\\CheckCount\\CheckCount\\CheckCount.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xodns\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
     "C:\\Users\\xodns\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512",

@@ -798,11 +798,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\CheckCount.csproj",
+      "projectUniqueName": "C:\\Users\\xodns\\Documents\\GitHub\\SHT\\CheckCount\\CheckCount\\CheckCount.csproj",
       "projectName": "CheckCount",
-      "projectPath": "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\CheckCount.csproj",
+      "projectPath": "C:\\Users\\xodns\\Documents\\GitHub\\SHT\\CheckCount\\CheckCount\\CheckCount.csproj",
       "packagesPath": "C:\\Users\\xodns\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xodns\\source\\repos\\CheckCount\\CheckCount\\obj\\",
+      "outputPath": "C:\\Users\\xodns\\Documents\\GitHub\\SHT\\CheckCount\\CheckCount\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

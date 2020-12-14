@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System;
 using System.Threading;
+using System.Linq;
 
 namespace CheckCount.ViewModels
 {
@@ -123,7 +124,10 @@ namespace CheckCount.ViewModels
             var enumLines = File.ReadLines(path, Encoding.UTF8);
             foreach (var line in enumLines)
             {
-                _getSerial.Add(line);
+                if (!_getSerial.Contains(line))
+                {
+                    _getSerial.Add(line);
+                }
             }
 
             SerialCount = _getSerial.Count;
@@ -161,17 +165,18 @@ namespace CheckCount.ViewModels
 
         private void LoopCheckSerial(IProgress<int> progress)
         {
-            string[] fileEntries = Directory.GetFiles(FolderPath);
+            List<string> fileNames = Directory.GetFiles(FolderPath).ToList();
 
             int dbCount = _getSerial.Count;
             for (int i = 0; i < dbCount; i++)
             {
                 Thread.Sleep(1);
-                for (int j = 0; j < fileEntries.Length; j++)
+                for (int j = 0; j < fileNames.Count; j++)
                 {
-                    if (fileEntries[j].Contains(_getSerial[i]))
+                    if (fileNames[j].Contains(_getSerial[i]))
                     {
                         CompareCount++;
+                        fileNames.RemoveAt(j);
                         break;
                     }
                 }
