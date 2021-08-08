@@ -1,0 +1,15 @@
+[2021-08-08 오후 5:14:22] 127.0.0.1:12386 Connected
+{보냄}[2021-08-08 오후 5:14:35] testData
+Sent 8 bytes to server.
+{보냄}[2021-08-08 오후 5:14:36] testData
+Sent 8 bytes to server.
+{보냄}[2021-08-08 오후 5:14:37] testData
+Sent 8 bytes to server.
+{보냄}[2021-08-08 오후 5:14:38] testData
+Sent 8 bytes to server.
+{보냄}[2021-08-08 오후 5:14:39] testData
+Sent 8 bytes to server.
+{보냄}[2021-08-08 오후 5:14:40] testData
+Sent 8 bytes to server.
+{보냄}[2021-08-08 오후 5:14:41] testData
+Sent 8 bytes to server.

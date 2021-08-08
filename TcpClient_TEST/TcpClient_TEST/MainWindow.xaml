@@ -5,8 +5,78 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TcpClient_TEST"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="TCP_테스트프로그램" Height="450" Width="800" Icon="4-1.jpg" >
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="8*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Viewbox Grid.Row="0" Grid.Column="0">
+            <TextBlock Text="IP : " TextWrapping="Wrap" Margin="5" />
+        </Viewbox>
+        <Viewbox Grid.Row="0" Grid.Column="1">
+            <TextBox x:Name="txt_ip" MinWidth="50" TextWrapping="Wrap" Margin="5" TextAlignment="Center" />
+        </Viewbox>
+
+        <Viewbox Grid.Row="0" Grid.Column="2">
+            <TextBlock Text="Port : " TextWrapping="Wrap" Margin="5" />
+        </Viewbox>
+        <Viewbox Grid.Row="0" Grid.Column="3">
+            <TextBox x:Name="txt_port" MinWidth="50" TextWrapping="Wrap" Margin="5" TextAlignment="Center" />
+        </Viewbox>
+
+        <Button  Click="btn_Connect_Click" x:Name="btn_Connect" Grid.Column="4" Grid.Row="0" Margin="5" >
+            <Viewbox Margin="10">
+                <TextBlock x:Name="btnTEXT" Text="Connect" Foreground="Black" TextWrapping="Wrap" />
+            </Viewbox>
+        </Button>
+
+        <Button  Click="btn_dataClear_Click" x:Name="btn_dataClear" Grid.Column="5" Grid.Row="0" Margin="5" >
+            <Viewbox Margin="10">
+                <TextBlock Text="Clear" Foreground="Black" TextWrapping="Wrap" />
+            </Viewbox>
+        </Button>
+
+        <!--<Button  Click="btn_Cloaking_Click" x:Name="btn_Cloaking" Grid.Column="5" Grid.Row="0" Margin="5" >
+            <Viewbox Margin="10">
+                <TextBlock x:Name="txt_Cloaking" Text="숨기기" Foreground="Black" TextWrapping="Wrap" />
+            </Viewbox>
+        </Button>-->
+        <Viewbox Grid.Row="1" Grid.Column="0">
+            <TextBlock Text="보낼 데이터 : " TextWrapping="Wrap" Margin="5" />
+        </Viewbox>
+        <Viewbox Grid.Row="1" Grid.Column="1">
+            <TextBox x:Name="txt_sendData" MinWidth="50" TextWrapping="Wrap" Margin="5" TextAlignment="Center" />
+        </Viewbox>
+        <Viewbox Grid.Row="1" Grid.Column="2">
+            <TextBlock Text="반복 시간 ( ms ) :" TextWrapping="Wrap" Margin="5" />
+        </Viewbox>
+        <Viewbox Grid.Row="1" Grid.Column="3">
+            <TextBox x:Name="txt_repeatTime" MinWidth="50" TextWrapping="Wrap" Margin="5" TextAlignment="Center" />
+        </Viewbox>
+
+        <Button x:Name="btn_repeatStart" Click="btn_repeatStart_Click" Grid.Column="4" Grid.Row="1" Margin="5" >
+            <Viewbox Margin="10">
+                <TextBlock Text="Start" Foreground="Black" TextWrapping="Wrap" />
+            </Viewbox>
+        </Button>
+        <Button x:Name="btn_repeatStop" Click="btn_repeatStop_Click" IsEnabled="False" Grid.Column="5" Grid.Row="1" Margin="5" >
+            <Viewbox Margin="10">
+                <TextBlock Text="Stop" Foreground="Black" TextWrapping="Wrap" />
+            </Viewbox>
+        </Button>
+
+        <ListBox Grid.Row="2" Grid.ColumnSpan="6" x:Name="lbBox" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" FontSize="22" />
+
     </Grid>
 </Window>
