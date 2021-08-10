@@ -142,7 +142,7 @@ namespace INSIGHT_SDK_TEST
 
         public void SET_STRING(string value)
         {
-            mInSight.SetString(cl_SET_TEXT,value);
+            mInSight.SetString(cl_SET_TEXT, value);
         }
 
         public void TRIGGER()

@@ -78,7 +78,6 @@ namespace INSIGHT_SDK_TEST
                 //path = GlobalStatic.PATHVPPFILE + "Cam" + i.ToString() + "\\";      // 자식폼 생성
                 try
                 {
-                    
                     chform[i] = new frmCamView();
                     chform[i].TopLevel = false;
                     // 카메라를 frmMain MID 부모 폼에 들어가게 해줍니다.

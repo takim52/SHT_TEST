@@ -1,9 +1,0 @@
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\obj\Debug\virtual_keyboard.csprojAssemblyReference.cache
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\obj\Debug\virtual_keyboard.Form1.resources
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\obj\Debug\virtual_keyboard.Properties.Resources.resources
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\obj\Debug\virtual_keyboard.csproj.GenerateResource.cache
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\bin\Debug\virtual_keyboard.exe.config
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\bin\Debug\virtual_keyboard.exe
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\bin\Debug\virtual_keyboard.pdb
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\obj\Debug\virtual_keyboard.exe
-C:\Users\xodns\source\repos\virtual_keyboard\virtual_keyboard\obj\Debug\virtual_keyboard.pdb

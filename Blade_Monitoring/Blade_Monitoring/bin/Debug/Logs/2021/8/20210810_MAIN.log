@@ -1,0 +1,6 @@
+디시리얼라이즈 실패!!!!  :: System.Collections.Generic.KeyNotFoundException: 지정한 키가 사전에 없습니다.
+   위치: System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   위치: Blade_Monitoring.MainForm.Deserialize() 파일 C:\Users\xodns\Documents\GitHub\SHT\Blade_Monitoring\Blade_Monitoring\MainForm.cs:줄 601 ::  2021-08-10 오전 11:16:55
+디시리얼라이즈 실패!!!!  :: System.Collections.Generic.KeyNotFoundException: 지정한 키가 사전에 없습니다.
+   위치: System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   위치: Blade_Monitoring.MainForm.Deserialize() 파일 C:\Users\xodns\Documents\GitHub\SHT\Blade_Monitoring\Blade_Monitoring\MainForm.cs:줄 601 ::  2021-08-10 오전 11:23:44
