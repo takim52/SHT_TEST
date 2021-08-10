@@ -6,9 +6,6 @@
 </br>
 </br>
 
-'''
-1a2a3a
-'''
 
 # - Blade_Monitoring -
 </br>
