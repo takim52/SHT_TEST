@@ -7,7 +7,6 @@
 </br>
 
 
-
 # - Blade_Monitoring -
 </br>
 
