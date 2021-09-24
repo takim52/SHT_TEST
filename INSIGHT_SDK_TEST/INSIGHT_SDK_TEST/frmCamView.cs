@@ -13,6 +13,9 @@ using Cognex.InSight.Controls.Display;
 using System.IO;
 using System.Configuration;
 using Cognex.InSight.Cell;
+using System.Net.Sockets;
+using System.Threading;
+using System.Net;
 
 namespace INSIGHT_SDK_TEST
 {
@@ -41,7 +44,10 @@ namespace INSIGHT_SDK_TEST
             _frmCamConfig = new Camconfigform();
 
             _frmCamConfig.DataSendEvent += new DataGetEventHandler(this.ConnectedCam);
-        }
+
+			StartClient();
+
+		}
 
         private void Init()
         {
@@ -66,6 +72,8 @@ namespace INSIGHT_SDK_TEST
 
             cvsInSightDisplay2.InSightChanged += new System.EventHandler(this.cvsInSightDisplay1_InSightChanged);
 
+			//InSight.ResultsChanged += new EventHandler(senserChangedHandler);
+
         }
         private CvsInSight InSight
         {
@@ -73,6 +81,14 @@ namespace INSIGHT_SDK_TEST
             set
             {
                 mInSight = value;
+            }
+        }
+
+        void senserChangedHandler(object sender, EventArgs e)
+        {
+            if (InSight.Results.HasNewlyAcquiredImage)
+            {
+				Send(connectedClient, "Vision PC Sended\r\n");
             }
         }
 
@@ -103,7 +119,13 @@ namespace INSIGHT_SDK_TEST
         {
             // 인사이트 커넥트를 하게 해줍니다.
             InSight = cvsInSightDisplay2.InSight;
-        }
+
+
+            if (InSight != null)
+            {
+				InSight.ResultsChanged += new EventHandler(senserChangedHandler);
+			}
+		}
 
         private void ConnectedCam(DataGridView St1, CvsNetworkMonitor nMonitor)
         {
@@ -149,5 +171,234 @@ namespace INSIGHT_SDK_TEST
         {
             mInSight.ManualAcquire(true);
         }
-    }
+
+		Socket connectedClient;
+
+		public class StateObject
+		{
+			// Client socket.  
+			public Socket workSocket = null;
+			// Size of receive buffer.  
+			public const int BufferSize = 256;
+			// Receive buffer.  
+			public byte[] buffer = new byte[BufferSize];
+			// Received data string.  
+			public StringBuilder sb = new StringBuilder();
+		}
+		// The port number for the remote device.  
+		private int port = 11000;
+
+		// ManualResetEvent instances signal completion.  
+		private static ManualResetEvent connectDone =
+			new ManualResetEvent(false);
+		private static ManualResetEvent sendDone =
+			new ManualResetEvent(false);
+		private static ManualResetEvent receiveDone =
+			new ManualResetEvent(false);
+		// The response from the remote device.  
+		private static String response = String.Empty;
+
+		private void StartClient()
+		{
+			// Connect to a remote device.  
+			try
+			{
+				// Establish the remote endpoint for the socket.  
+				// The name of the
+				// remote device is "host.contoso.com".  
+				//IPHostEntry ipHostInfo = Dns.GetHostEntry("host.contoso.com");
+
+				string txtIP = "127.0.0.1";
+				string txtPort = "12486";
+
+				IPAddress ipAddress = IPAddress.Parse(txtIP);
+				IPEndPoint remoteEP = new IPEndPoint(ipAddress, int.Parse(txtPort));
+
+
+				// Create a TCP/IP socket.  
+				Socket client = new Socket(ipAddress.AddressFamily,
+					SocketType.Stream, ProtocolType.Tcp);
+
+				// Connect to the remote endpoint.  
+				client.BeginConnect(remoteEP,
+					new AsyncCallback(ConnectCallback), client);
+				connected = true;
+				//connectDone.WaitOne();
+
+				// Send test data to the remote device.  
+				//Send(client, "This is a test<EOF>");
+				//sendDone.WaitOne();
+
+				// Receive the response from the remote device.  
+				//Receive(client);
+				//receiveDone.WaitOne();
+
+				// Write the response to the console.  
+				//Console.WriteLine("Response received : {0}", response);
+
+				// Release the socket.  
+				//client.Shutdown(SocketShutdown.Both);
+				//client.Close();
+
+			}
+			catch (Exception e)
+			{
+				//Console.WriteLine(e.ToString());
+				MessageBox.Show(e.ToString());
+				LOG(e.ToString());
+			}
+		}
+
+		private void ConnectCallback(IAsyncResult ar)
+		{
+			try
+			{
+				connectedClient = (Socket)ar.AsyncState;
+
+				// Retrieve the socket from the state object.  
+				Socket client = (Socket)ar.AsyncState;
+
+
+				// Complete the connection.  
+				client.EndConnect(ar);
+
+				Receive(client);
+
+				//Console.WriteLine("Socket connected to {0}",
+				//    client.RemoteEndPoint.ToString());
+
+				// Signal that the connection has been made.  
+				//connectDone.Set();
+			}
+			catch (Exception e)
+			{
+				//Console.WriteLine(e.ToString());
+				MessageBox.Show(e.ToString());
+				LOG(e.ToString());
+			}
+		}
+
+		private void Receive(Socket client)
+		{
+			try
+			{
+				// Create the state object.  
+				StateObject state = new StateObject();
+				state.workSocket = client;
+
+				// Begin receiving the data from the remote device.  
+				client.BeginReceive(state.buffer, 0, StateObject.BufferSize, 0,
+					new AsyncCallback(ReceiveCallback), state);
+			}
+			catch (Exception e)
+			{
+				//Console.WriteLine(e.ToString());
+				MessageBox.Show(e.ToString());
+				LOG(e.ToString());
+			}
+		}
+
+		private void ReceiveCallback(IAsyncResult ar)
+		{
+			try
+			{
+				// Retrieve the state object and the client socket
+				// from the asynchronous state object.  
+				StateObject state = (StateObject)ar.AsyncState;
+				Socket client = state.workSocket;
+
+				// Read data from the remote device.  
+				int bytesRead = client.EndReceive(ar);
+
+				if (bytesRead > 0)
+				{
+					// There might be more data, so store the data received so far.  
+					//state.sb.Append(Encoding.ASCII.GetString(state.buffer, 0, bytesRead));
+					string readText = Encoding.Default.GetString(state.buffer, 0, bytesRead);
+
+					string writeText = "{받음}" + "[" + DateTime.Now.ToString() + "] " + readText;
+
+
+					// Get the rest of the data.  
+					client.BeginReceive(state.buffer, 0, StateObject.BufferSize, 0,
+						new AsyncCallback(ReceiveCallback), state);
+				}
+				//else
+				//{
+				//	// All the data has arrived; put it in response.  
+				//	if (state.sb.Length > 1)
+				//	{
+				//		response = state.sb.ToString();
+				//	}
+				//	// Signal that all bytes have been received.  
+				//	//receiveDone.Set();
+				//}
+			}
+			catch (Exception e)
+			{
+				//Console.WriteLine(e.ToString());
+				MessageBox.Show(e.ToString());
+				LOG(e.ToString());
+			}
+		}
+
+		private void Send(Socket client, String data)
+		{
+			// Convert the string data to byte data using ASCII encoding.  
+			byte[] byteData = Encoding.ASCII.GetBytes(data);
+
+			// Begin sending the data to the remote device.  
+			client.BeginSend(byteData, 0, byteData.Length, 0,
+				new AsyncCallback(SendCallback), client);
+		}
+
+		private void SendCallback(IAsyncResult ar)
+		{
+			try
+			{
+				// Retrieve the socket from the state object.  
+				Socket client = (Socket)ar.AsyncState;
+
+				// Complete sending the data to the remote device.  
+				int bytesSent = client.EndSend(ar);
+				//Console.WriteLine("Sent {0} bytes to server.", bytesSent);
+
+
+				// Signal that all bytes have been sent.  
+				//sendDone.Set();
+			}
+			catch (Exception e)
+			{
+				//Console.WriteLine(e.ToString());
+				MessageBox.Show(e.ToString());
+			}
+		}
+
+		bool connected = false;
+		private void LOG(string msg)
+		{
+			try
+			{
+				string strCheckFolder = string.Empty;
+				string strFileName = string.Empty;
+				string strLocal = System.Environment.CurrentDirectory;
+
+				strCheckFolder = strLocal + "\\LOG";
+				if (!Directory.Exists(strCheckFolder))
+				{
+					Directory.CreateDirectory(strCheckFolder);
+				}
+
+				strFileName = strCheckFolder + "\\" + DateTime.Now.ToString("yy_MM_dd") + ".txt";
+				StreamWriter FileWriter = new StreamWriter(strFileName, true);
+				FileWriter.Write(msg + "\r\n");
+				FileWriter.Flush();
+				FileWriter.Close();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.ToString());
+			}
+		}
+	}
 }

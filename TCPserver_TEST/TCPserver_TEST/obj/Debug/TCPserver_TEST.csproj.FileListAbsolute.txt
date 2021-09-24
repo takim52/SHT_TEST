@@ -1,0 +1,10 @@
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\obj\Debug\TCPserver_TEST.csprojAssemblyReference.cache
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\obj\Debug\TCPserver_TEST.Form1.resources
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\obj\Debug\TCPserver_TEST.Properties.Resources.resources
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\obj\Debug\TCPserver_TEST.csproj.GenerateResource.cache
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\obj\Debug\TCPserver_TEST.csproj.CoreCompileInputs.cache
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\bin\Debug\TCPserver_TEST.exe.config
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\bin\Debug\TCPserver_TEST.exe
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\bin\Debug\TCPserver_TEST.pdb
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\obj\Debug\TCPserver_TEST.exe
+C:\Users\xodns\source\repos\TCPserver_TEST\TCPserver_TEST\obj\Debug\TCPserver_TEST.pdb

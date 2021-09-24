@@ -30,3 +30,4 @@ C:\Users\xodns\Documents\GitHub\SHT\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\
 C:\Users\xodns\Documents\GitHub\SHT\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.csproj.CopyComplete
 C:\Users\xodns\Documents\GitHub\SHT\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.exe
 C:\Users\xodns\Documents\GitHub\SHT\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.pdb
+C:\Users\xodns\Documents\GitHub\SHT\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\obj\Debug\INSIGHT_SDK_TEST.csprojAssemblyReference.cache
