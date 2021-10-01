@@ -23,6 +23,10 @@
   - 이미지 저장 폴더 및 데이터(CSV) 저장 폴더 확인 및 설정 가능합니다.
 
 </br>
+
+[블레이드 모니터링 자세히 보기](Blade_Monitoring\README.md)
+
+</br>
 </br>
 </br>
 
@@ -46,6 +50,8 @@
 4. 비교시작
   - 파일셋팅 된 List와 폴더의 파일명을 비교하여 시리얼넘버 개수를 카운팅 합니다. </br> 
   ( List의 값이 폴더에 파일명으로 있다면 count ++ )
+
+  [CheckCount 자세히 보기](CheckCount\README.md)
 
 </br>
 </br>
