@@ -24,7 +24,7 @@
 
 </br>
 
-[블레이드 모니터링 자세히 보기](Blade_Monitoring\README.md)
+[블레이드 모니터링 자세히 보기](./Blade_Monitoring\README.md)
 
 </br>
 </br>
@@ -51,7 +51,7 @@
   - 파일셋팅 된 List와 폴더의 파일명을 비교하여 시리얼넘버 개수를 카운팅 합니다. </br> 
   ( List의 값이 폴더에 파일명으로 있다면 count ++ )
 
-  [CheckCount 자세히 보기](CheckCount\README.md)
+  [CheckCount 자세히 보기](./CheckCount\README.md)
 
 </br>
 </br>
@@ -72,7 +72,7 @@
 4. 트리거
   - 소프트웨어 트리거 1회 발생 시키는 기능입니다.
 
-[InsightSDK_TEST 자세히 보기](INSIGHT_SDK_TEST\README.md)
+[InsightSDK_TEST 자세히 보기](./INSIGHT_SDK_TEST\README.md)
 
 
 </br>
@@ -141,7 +141,7 @@
 
 </br>
 
-[tcpClient_TEST 자세히 보기](TcpClient_TEST\README.md)
+[tcpClient_TEST 자세히 보기](./TcpClient_TEST\README.md)
 
 </br>
 </br>
@@ -150,7 +150,7 @@
 # - Tcpserver_TEST -
 </br>
 
-![TCPserver_TEST](images\TCPserver_TEST\TCPserverImage.PNG "TCPserver_TEST 이미지")
+![TCPserver_TEST](./images\TCPserver_TEST\TCPserverImage.PNG "TCPserver_TEST 이미지")
 
 
 ### 구성
@@ -165,7 +165,7 @@
 
 </br>
 
-[TCPserver_TEST 자세히 보기](TCPserver_TEST\README.md)
+[TCPserver_TEST 자세히 보기](./TCPserver_TEST\README.md)
 
 </br>
 
