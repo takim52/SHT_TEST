@@ -1,0 +1,59 @@
+[2021-10-05_10:04:30.024]서버를 오픈했습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:02.620]127.0.0.1:8748에서[TCP Cline오 Tex오 Sen5!] 전송받음
+[2021-10-05_10:05:13.521]127.0.0.1:8748으로[Server D오a오a Sen5!] 전송완료
+[2021-10-05_10:05:38.230]!!에러발생!!S2138오e5.Ne오.Socke오38.Socke오Excep오ion (0x80004005): 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+   위치: S2138오e5.Ne오.Socke오38.Socke오.En5Receive(IA3821ncRe38ul오 a3821ncRe38ul오)
+   위치: TCP38erver_TEST.2or51.Da오aReceive5(IA3821ncRe38ul오 ar) 파일 C:U38er38xo5n38sourcerepo38TCP38erver_TESTTCP38erver_TESTFor51.c38:줄 126
+[2021-10-05_10:05:41.912][Da오aSen5에러]S2141오e5.Ne오.Socke오41.Socke오Excep오ion (0x80004005): 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+   위치: S2141오e5.Ne오.Socke오41.Socke오.Sen5(B21오e[] bu91er, In오32 o9141e오, In오32 41i+9e, Socke오9la서기41 41ocke오9la서기41)
+   위치: S2141오e5.Ne오.Socke오41.Socke오.Sen5(B21오e[] bu91er)
+   위치: TCP41erver_TEST.9or51.b오n_Da오aSen5_Click(Objec오 41en5er, Even오Ar서기41 e) 파일 C:U41er41xo5n41sourcerepo41TCP41erver_TESTTCP41erver_TESTFor51.c41:줄 172
+[2021-10-05_10:05:43.574][Da오aSen5에러]S2143오e5.Ne오.Socke오43.Socke오Excep오ion (0x80004005): 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+   위치: S2143오e5.Ne오.Socke오43.Socke오.Sen5(B21오e[] bu57er, In오32 o5743e오, In오32 43i+9e, Socke오5la서기43 43ocke오5la서기43)
+   위치: S2143오e5.Ne오.Socke오43.Socke오.Sen5(B21오e[] bu57er)
+   위치: TCP43erver_TEST.5or51.b오n_Da오aSen5_Click(Objec오 43en5er, Even오Ar서기43 e) 파일 C:U43er43xo5n43sourcerepo43TCP43erver_TESTTCP43erver_TESTFor51.c43:줄 172
+[2021-10-05_10:05:45.050]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:45.981]서버 오픈 문제 발생 : S2145오e5.Ne오.Socke오45.Socke오Excep오ion (0x80004005): 각 소켓 주소(프로토콜-네트워크 주소-포트)는 하나만 사용할 수 있습니다
+   위치: S2145오e5.Ne오.Socke오45.Socke오.DoBin5(En5Poin오 en5Poin오Snap4510o오, Socke오A05re45 45ocke오A05re45)
+   위치: S2145오e5.Ne오.Socke오45.Socke오.Bin5(En5Poin오 localEP)
+   위치: TCP45erver_TEST.9or51.b오n_45erverS오ar오_Click(Objec오 45en5er, Even오Ar서기45 e) 파일 C:U45er45xo5n45sourcerepo45TCP45erver_TESTTCP45erver_TESTFor51.c45:줄 50
+[2021-10-05_10:05:46.896]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:48.617]서버 오픈 문제 발생 : S2148오e5.Ne오.Socke오48.Socke오Excep오ion (0x80004005): 각 소켓 주소(프로토콜-네트워크 주소-포트)는 하나만 사용할 수 있습니다
+   위치: S2148오e5.Ne오.Socke오48.Socke오.DoBin5(En5Poin오 en5Poin오Snap4810o오, Socke오A05re48 48ocke오A05re48)
+   위치: S2148오e5.Ne오.Socke오48.Socke오.Bin5(En5Poin오 localEP)
+   위치: TCP48erver_TEST.6or51.b오n_48erverS오ar오_Click(Objec오 48en5er, Even오Ar서기48 e) 파일 C:U48er48xo5n48sourcerepo48TCP48erver_TESTTCP48erver_TESTFor51.c48:줄 50
+[2021-10-05_10:05:50.039]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:52.497][Da오aSen5에러]S2152오e5.Ne오.Socke오52.Socke오Excep오ion (0x80004005): 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+   위치: S2152오e5.Ne오.Socke오52.Socke오.Sen5(B21오e[] bu49er, In오32 o4952e오, In오32 52i+9e, Socke오4la서기52 52ocke오4la서기52)
+   위치: S2152오e5.Ne오.Socke오52.Socke오.Sen5(B21오e[] bu49er)
+   위치: TCP52erver_TEST.4or51.b오n_Da오aSen5_Click(Objec오 52en5er, Even오Ar서기52 e) 파일 C:U52er52xo5n52sourcerepo52TCP52erver_TESTTCP52erver_TESTFor51.c52:줄 172
+[2021-10-05_10:05:53.127]서버 오픈 문제 발생 : S2153오e5.Ne오.Socke오53.Socke오Excep오ion (0x80004005): 각 소켓 주소(프로토콜-네트워크 주소-포트)는 하나만 사용할 수 있습니다
+   위치: S2153오e5.Ne오.Socke오53.Socke오.DoBin5(En5Poin오 en5Poin오Snap5310o오, Socke오A05re53 53ocke오A05re53)
+   위치: S2153오e5.Ne오.Socke오53.Socke오.Bin5(En5Poin오 localEP)
+   위치: TCP53erver_TEST.1or51.b오n_53erverS오ar오_Click(Objec오 53en5er, Even오Ar서기53 e) 파일 C:U53er53xo5n53sourcerepo53TCP53erver_TESTTCP53erver_TESTFor51.c53:줄 50
+[2021-10-05_10:05:53.603]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:54.269]서버 오픈 문제 발생 : S2154오e5.Ne오.Socke오54.Socke오Excep오ion (0x80004005): 각 소켓 주소(프로토콜-네트워크 주소-포트)는 하나만 사용할 수 있습니다
+   위치: S2154오e5.Ne오.Socke오54.Socke오.DoBin5(En5Poin오 en5Poin오Snap5410o오, Socke오A05re54 54ocke오A05re54)
+   위치: S2154오e5.Ne오.Socke오54.Socke오.Bin5(En5Poin오 localEP)
+   위치: TCP54erver_TEST.2or51.b오n_54erverS오ar오_Click(Objec오 54en5er, Even오Ar서기54 e) 파일 C:U54er54xo5n54sourcerepo54TCP54erver_TESTTCP54erver_TESTFor51.c54:줄 50
+[2021-10-05_10:05:54.403]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:54.547]서버 오픈 문제 발생 : S2154오e5.Ne오.Socke오54.Socke오Excep오ion (0x80004005): 각 소켓 주소(프로토콜-네트워크 주소-포트)는 하나만 사용할 수 있습니다
+   위치: S2154오e5.Ne오.Socke오54.Socke오.DoBin5(En5Poin오 en5Poin오Snap5410o오, Socke오A05re54 54ocke오A05re54)
+   위치: S2154오e5.Ne오.Socke오54.Socke오.Bin5(En5Poin오 localEP)
+   위치: TCP54erver_TEST.5or51.b오n_54erverS오ar오_Click(Objec오 54en5er, Even오Ar서기54 e) 파일 C:U54er54xo5n54sourcerepo54TCP54erver_TESTTCP54erver_TESTFor51.c54:줄 50
+[2021-10-05_10:05:54.688]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:54.831]서버 오픈 문제 발생 : S2154오e5.Ne오.Socke오54.Socke오Excep오ion (0x80004005): 각 소켓 주소(프로토콜-네트워크 주소-포트)는 하나만 사용할 수 있습니다
+   위치: S2154오e5.Ne오.Socke오54.Socke오.DoBin5(En5Poin오 en5Poin오Snap5410o오, Socke오A05re54 54ocke오A05re54)
+   위치: S2154오e5.Ne오.Socke오54.Socke오.Bin5(En5Poin오 localEP)
+   위치: TCP54erver_TEST.8or51.b오n_54erverS오ar오_Click(Objec오 54en5er, Even오Ar서기54 e) 파일 C:U54er54xo5n54sourcerepo54TCP54erver_TESTTCP54erver_TESTFor51.c54:줄 50
+[2021-10-05_10:05:54.964]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:55.164]서버 오픈 문제 발생 : S2155오e5.Ne오.Socke오55.Socke오Excep오ion (0x80004005): 각 소켓 주소(프로토콜-네트워크 주소-포트)는 하나만 사용할 수 있습니다
+   위치: S2155오e5.Ne오.Socke오55.Socke오.DoBin5(En5Poin오 en5Poin오Snap5510o오, Socke오A05re55 55ocke오A05re55)
+   위치: S2155오e5.Ne오.Socke오55.Socke오.Bin5(En5Poin오 localEP)
+   위치: TCP55erver_TEST.1or51.b오n_55erverS오ar오_Click(Objec오 55en5er, Even오Ar서기55 e) 파일 C:U55er55xo5n55sourcerepo55TCP55erver_TESTTCP55erver_TESTFor51.c55:줄 50
+[2021-10-05_10:05:56.467]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2021-10-05_10:05:56.603]서버 오픈 문제 발생 : S2156오e5.Ne오.Socke오56.Socke오Excep오ion (0x80004005): 각 소켓 주소(프로토콜-네트워크 주소-포트)는 하나만 사용할 수 있습니다
+   위치: S2156오e5.Ne오.Socke오56.Socke오.DoBin5(En5Poin오 en5Poin오Snap5610o오, Socke오A05re56 56ocke오A05re56)
+   위치: S2156오e5.Ne오.Socke오56.Socke오.Bin5(En5Poin오 localEP)
+   위치: TCP56erver_TEST.6or51.b오n_56erverS오ar오_Click(Objec오 56en5er, Even오Ar서기56 e) 파일 C:U56er56xo5n56sourcerepo56TCP56erver_TESTTCP56erver_TESTFor51.c56:줄 50
+[2021-10-05_10:05:56.737]서버를 닫았습니다~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -455,101 +455,104 @@ namespace TcpClient_TEST
 			}
 		}
 
-		private void Window_Loaded(object sender, RoutedEventArgs e)
-		{
-			try
-			{
-				System.Windows.Forms.ContextMenu menu = new System.Windows.Forms.ContextMenu();
-				// 아이콘 설정부분
-				notify = new System.Windows.Forms.NotifyIcon();
-				//notify.Icon = new System.Drawing.Icon(Application.Current @"TiimeAlram.ico");  // 외부아이콘 사용 시
-				notify.Icon = Properties.Resources.sht_logo;   // Resources 아이콘 사용 시
-																 //notify.Visible = true;
-				notify.ContextMenu = menu;
-				notify.Text = "DMR 확인용";
+        #region 로고 사용할 때 썼던것들
+		//private void Window_Loaded(object sender, RoutedEventArgs e)
+		//{
+		//	try
+		//	{
+		//		System.Windows.Forms.ContextMenu menu = new System.Windows.Forms.ContextMenu();
+		//		// 아이콘 설정부분
+		//		notify = new System.Windows.Forms.NotifyIcon();
+		//		//notify.Icon = new System.Drawing.Icon(Application.Current @"TiimeAlram.ico");  // 외부아이콘 사용 시
+		//		notify.Icon = Properties.Resources.sht_logo1;   // Resources 아이콘 사용 시
+		//														 //notify.Visible = true;
+		//		notify.ContextMenu = menu;
+		//		notify.Text = "DMR 확인용";
 
-				// 아이콘 더블클릭 이벤트 설정
-				notify.DoubleClick += Notify_DoubleClick;
+		//		// 아이콘 더블클릭 이벤트 설정
+		//		notify.DoubleClick += Notify_DoubleClick;
 
-				System.Windows.Forms.MenuItem item2 = new System.Windows.Forms.MenuItem();
-				menu.MenuItems.Add(item2);
-				item2.Index = 0;
-				item2.Text = "프로그램 열기";
-				item2.Click += delegate (object click, EventArgs eClick)
-				{
-					try
-					{
-						this.WindowState = WindowState.Normal;
-						this.Visibility = Visibility.Visible;
-						this.ShowInTaskbar = true;
-						notify.Visible = false;
-					}
-					catch (Exception ex)
-					{
-						LOG(ex.ToString());
-					}
+		//		System.Windows.Forms.MenuItem item2 = new System.Windows.Forms.MenuItem();
+		//		menu.MenuItems.Add(item2);
+		//		item2.Index = 0;
+		//		item2.Text = "프로그램 열기";
+		//		item2.Click += delegate (object click, EventArgs eClick)
+		//		{
+		//			try
+		//			{
+		//				this.WindowState = WindowState.Normal;
+		//				this.Visibility = Visibility.Visible;
+		//				this.ShowInTaskbar = true;
+		//				notify.Visible = false;
+		//			}
+		//			catch (Exception ex)
+		//			{
+		//				LOG(ex.ToString());
+		//			}
 
-				};
+		//		};
 
-				System.Windows.Forms.MenuItem item3 = new System.Windows.Forms.MenuItem();
-				menu.MenuItems.Add(item3);
-				item3.Index = 1;
-				item3.Text = "프로그램 종료";
-				item3.Click += delegate (object click, EventArgs eClick)
-				{
-					try
-					{
-						this.Close();
-					}
-					catch (Exception ex)
-					{
-						LOG(ex.ToString());
-					}
+		//		System.Windows.Forms.MenuItem item3 = new System.Windows.Forms.MenuItem();
+		//		menu.MenuItems.Add(item3);
+		//		item3.Index = 1;
+		//		item3.Text = "프로그램 종료";
+		//		item3.Click += delegate (object click, EventArgs eClick)
+		//		{
+		//			try
+		//			{
+		//				this.Close();
+		//			}
+		//			catch (Exception ex)
+		//			{
+		//				LOG(ex.ToString());
+		//			}
 
-				};
+		//		};
 
-				//this.Close();   // 시작시 창 닫음 (아이콘만 띄우기 위함)
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show(ex.ToString());
-				LOG(ex.ToString());
-			}
-		}
+		//		//this.Close();   // 시작시 창 닫음 (아이콘만 띄우기 위함)
+		//	}
+		//	catch (Exception ex)
+		//	{
+		//		MessageBox.Show(ex.ToString());
+		//		LOG(ex.ToString());
+		//	}
+		//}
 
-		private void Notify_DoubleClick(object sender, EventArgs e)
-		{
-			try
-			{
-				this.WindowState = WindowState.Normal;
+		//private void Notify_DoubleClick(object sender, EventArgs e)
+		//{
+		//	try
+		//	{
+		//		this.WindowState = WindowState.Normal;
 
-				this.ShowInTaskbar = true;
+		//		this.ShowInTaskbar = true;
 
-				notify.Visible = false;
-			}
-			catch (Exception ex)
-			{
-				LOG(ex.ToString());
-			}
+		//		notify.Visible = false;
+		//	}
+		//	catch (Exception ex)
+		//	{
+		//		LOG(ex.ToString());
+		//	}
 
-		}
+		//}
 
-		private void Window_StateChanged(object sender, EventArgs e)
-		{
-			try
-			{
-				if (WindowState.Minimized == this.WindowState)
-				{
-					notify.Visible = true;
-					this.ShowInTaskbar = false;
-				}
-			}
-			catch (Exception ex)
-			{
-				LOG(ex.ToString());
-			}
+		//private void Window_StateChanged(object sender, EventArgs e)
+		//{
+		//	try
+		//	{
+		//		if (WindowState.Minimized == this.WindowState)
+		//		{
+		//			notify.Visible = true;
+		//			this.ShowInTaskbar = false;
+		//		}
+		//	}
+		//	catch (Exception ex)
+		//	{
+		//		LOG(ex.ToString());
+		//	}
 
-		}
+		//}
+
+		#endregion
 
 		bool SocketConnected(Socket s)
 		{

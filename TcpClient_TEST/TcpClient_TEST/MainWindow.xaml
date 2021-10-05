@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TcpClient_TEST"
         mc:Ignorable="d"
-        Title="TCP_테스트프로그램" Height="450" Width="800" Icon="4-1.jpg" >
+        Title="TCP_테스트프로그램" Height="450" Width="800" >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />

@@ -60,7 +60,7 @@
 # - Insight_SDK_TEST -
 </br>
 
-![CheckCount](./images/InsightSDK_TEST/InsightSDK_TEST.PNG "체크 카운트 이미지")
+![Insight test](./images/InsightSDK_TEST/InsightSDK_TEST.PNG "인사이트  이미지")
 
 ### 구성
 1. 이미지 저장
@@ -71,6 +71,9 @@
   - Insight의 EditString에 string 값을 넣는 기능입니다.
 4. 트리거
   - 소프트웨어 트리거 1회 발생 시키는 기능입니다.
+
+[InsightSDK_TEST 자세히 보기](INSIGHT_SDK_TEST\README.md)
+
 
 </br>
 </br>
@@ -116,7 +119,7 @@
   - 내부 파라미터들을 확인하는 용도로 사용하였습니다.
 3. 확인
   - 그룹 메세지 발송에 대해서 테스트 한 내용입니다. </br>
-  ( 그룹 발송은 어떻게하는 지 확인하지 못한채 더 이상 확인 하지 않았습니다. )
+  ( 그룹 발송은 어떻게하는 지 확인하지 못한 채 더 이상 확인 하지 않았습니다. )
 
 
 </br>
@@ -135,3 +138,34 @@
   - 보낼 데이터를 반복 시간 만큼 지속적으로 반복합니다.
 3. Stop
   - 반복을 중지합니다.
+
+</br>
+
+[tcpClient_TEST 자세히 보기](TcpClient_TEST\README.md)
+
+</br>
+</br>
+</br>
+
+# - Tcpserver_TEST -
+</br>
+
+![TCPserver_TEST](images\TCPserver_TEST\TCPserverImage.PNG "TCPserver_TEST 이미지")
+
+
+### 구성
+1. IP
+  - 콤보박스에서 원하는 IP를 선택해 주세요.
+2. PORT
+  - Binding 할 포트를 지정해 주세요.
+3. Start
+  - server를 Start 합니다.
+4. DataSend
+  - 보내고 싶은 데이터를 보냅니다. Send_Text에 값을 넣어 주세요.
+
+</br>
+
+[TCPserver_TEST 자세히 보기](TCPserver_TEST\README.md)
+
+</br>
+

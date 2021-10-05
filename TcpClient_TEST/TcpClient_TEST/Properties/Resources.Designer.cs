@@ -60,14 +60,6 @@ namespace TcpClient_TEST.Properties {
             }
         }
         
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon sht_logo {
-            get {
-                object obj = ResourceManager.GetObject("sht_logo", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
+
     }
 }

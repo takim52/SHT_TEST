@@ -1,0 +1,8 @@
+System.Net.Sockets.SocketException (0x80004005): 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:12486
+   위치: System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   위치: System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   위치: INSIGHT_SDK_TEST.frmCamView.ConnectCallback(IAsyncResult ar) 파일 C:\Users\xodns\Documents\GitHub\SHT\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\frmCamView.cs:줄 263
+System.Net.Sockets.SocketException (0x80004005): 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 127.0.0.1:12486
+   위치: System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   위치: System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   위치: INSIGHT_SDK_TEST.frmCamView.ConnectCallback(IAsyncResult ar) 파일 C:\Users\xodns\Documents\GitHub\SHT\INSIGHT_SDK_TEST\INSIGHT_SDK_TEST\frmCamView.cs:줄 263
