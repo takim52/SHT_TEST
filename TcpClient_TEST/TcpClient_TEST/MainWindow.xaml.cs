@@ -34,6 +34,10 @@ namespace TcpClient_TEST
 		DispatcherTimer repeatDataTimer = new DispatcherTimer();
 
 		string repeatData = string.Empty;
+
+		object LogLock = new object();
+
+		bool checkCRLF = false;
 		public class StateObject
 		{
 			// Client socket.  
@@ -217,7 +221,12 @@ namespace TcpClient_TEST
 
 		private void Send(Socket client, String data)
 		{
-			// Convert the string data to byte data using ASCII encoding.  
+            // Convert the string data to byte data using ASCII encoding.  
+            if (checkCRLF)
+            {
+				data = data + Convert.ToChar(13) + Convert.ToChar(10);
+			}
+			
 			byte[] byteData = Encoding.ASCII.GetBytes(data);
 
 			// Begin sending the data to the remote device.  
@@ -274,7 +283,7 @@ namespace TcpClient_TEST
 			{
 				if (btnTEXT.Text.Equals("Disconnect"))
 				{
-					connectedClient.Disconnect(true);
+					connectedClient.Disconnect(false);
 					Dispatcher.Invoke(DispatcherPriority.Normal, new Action(delegate
 					{
 						btn_Connect.Background = Brushes.Red;
@@ -368,21 +377,25 @@ namespace TcpClient_TEST
 		{
 			try
 			{
-				string strCheckFolder = string.Empty;
-				string strFileName = string.Empty;
-				string strLocal = System.Environment.CurrentDirectory;
+                lock (LogLock)
+                {
+					string strCheckFolder = string.Empty;
+					string strFileName = string.Empty;
+					string strLocal = System.Environment.CurrentDirectory;
 
-				strCheckFolder = strLocal + "\\LOG";
-				if (!Directory.Exists(strCheckFolder))
-				{
-					Directory.CreateDirectory(strCheckFolder);
+
+					strCheckFolder = strLocal + "\\LOG";
+					if (!Directory.Exists(strCheckFolder))
+					{
+						Directory.CreateDirectory(strCheckFolder);
+					}
+
+					strFileName = strCheckFolder + "\\" + DateTime.Now.ToString("yy_MM_dd") + ".txt";
+					StreamWriter FileWriter = new StreamWriter(strFileName, true);
+					FileWriter.Write(msg + "\r\n");
+					FileWriter.Flush();
+					FileWriter.Close();
 				}
-
-				strFileName = strCheckFolder + "\\" + DateTime.Now.ToString("yy_MM_dd") + ".txt";
-				StreamWriter FileWriter = new StreamWriter(strFileName, true);
-				FileWriter.Write(msg + "\r\n");
-				FileWriter.Flush();
-				FileWriter.Close();
 			}
 			catch (Exception ex)
 			{
@@ -587,6 +600,16 @@ namespace TcpClient_TEST
         {
 			lbBox.Items.Clear();
 
+		}
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+			checkCRLF = true;
+		}
+
+        private void cb_crlf_Unchecked(object sender, RoutedEventArgs e)
+        {
+			checkCRLF = false;
 		}
     }
 }

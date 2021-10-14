@@ -15,7 +15,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -58,9 +58,18 @@
         <Viewbox Grid.Row="1" Grid.Column="1">
             <TextBox x:Name="txt_sendData" MinWidth="50" TextWrapping="Wrap" Margin="5" TextAlignment="Center" />
         </Viewbox>
-        <Viewbox Grid.Row="1" Grid.Column="2">
-            <TextBlock Text="반복 시간 ( ms ) :" TextWrapping="Wrap" Margin="5" />
-        </Viewbox>
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Column="0">
+                <CheckBox x:Name="cb_crlf" Content="CR/LF 추가" Checked="CheckBox_Checked" Unchecked="cb_crlf_Unchecked" />
+            </Viewbox>
+            <Viewbox Grid.Column="1">
+                <TextBlock Text="반복 시간 ( ms ) :" TextWrapping="Wrap" Margin="5" />
+            </Viewbox>
+        </Grid>
         <Viewbox Grid.Row="1" Grid.Column="3">
             <TextBox x:Name="txt_repeatTime" MinWidth="50" TextWrapping="Wrap" Margin="5" TextAlignment="Center" />
         </Viewbox>
